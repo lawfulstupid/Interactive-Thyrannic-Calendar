@@ -1,0 +1,14 @@
+$angular-diameter: 0.61;
+$diameter: calc($angular-diameter * 4vw);
+
+* {
+  width: $diameter;
+  height: $diameter;
+  position: absolute;
+  left: 10vw;
+  top: 1vw;
+  background-color: rgb(32, 33, 35);
+  filter: brightness(2.4 * 3);
+  border-radius: 100%;
+  z-index: 3;
+}

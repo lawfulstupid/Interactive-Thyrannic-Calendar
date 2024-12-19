@@ -1,0 +1,13 @@
+$angular-diameter: 0.53;
+$diameter: calc($angular-diameter * 4vw);
+
+* {
+  width: $diameter;
+  height: $diameter;
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  background-color: yellow;
+  border-radius: 100%;
+  z-index: 1;
+}
